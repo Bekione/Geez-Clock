@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(-45deg, rgba(255, 0, 0, 0.253), rgba(0, 0, 255, 0.452)), url(https://media.istockphoto.com/id/477206808/photo/timkat-celebration-in-ethiopia.jpg?s=612x612&w=0&k=20&c=AnlTi771hNWlsaf4A30thFGf_2UtSLe0WCVfADDANYc=) no-repeat center;
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.clock{
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgba(209, 191, 191, 0.774);
+    background-color: rgba(0, 0, 0, 0.6);
+    background: url(*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(-45deg, rgba(255, 0, 0, 0.253), rgba(0, 0, 255, 0.452)), url(https://media.istockphoto.com/id/477206808/photo/timkat-celebration-in-ethiopia.jpg?s=612x612&w=0&k=20&c=AnlTi771hNWlsaf4A30thFGf_2UtSLe0WCVfADDANYc=) no-repeat center;
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.clock{
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgba(209, 191, 191, 0.774);
+    background-color: rgba(0, 0, 0, 0.6);
+    background: url(https://github-production-user-asset-6210df.s3.amazonaws.com/112067722/240849426-e4283be3-4523-4321-80a1-102bafb71fd6.png) no-repeat 100% 0%;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 0 50px 15px #b95216c0,
+                inset 0 0 10px 5px #d38e6779;
+}
+.number{
+    --rotation: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+    transform: rotate(var(--rotation));
+}
+.number .num{
+    --rotation: 0;
+    display: block;
+    padding: 5px;
+    transform: rotate(var(--rotation));
+}
+.num.num1{--rotation: -30deg;}
+.num.num2{--rotation: -60deg;}
+.num.num3{--rotation: -90deg; padding: 0;}
+.num.num4{--rotation: -120deg;}
+.num.num5{--rotation: -150deg;}
+.num.num6{--rotation: 180deg;}
+.num.num7{--rotation: 150deg;}
+.num.num8{--rotation: 120deg;}
+.num.num9{--rotation: 90deg; padding: 0;}
+.num.num10{--rotation: 60deg;}
+.num.num11{--rotation: 30deg;}
+
+.number.number1{--rotation: 30deg;}
+.number.number2{--rotation: 60deg;}
+.number.number3{--rotation: 90deg;}
+.number.number4{--rotation: 120deg;}
+.number.number5{--rotation: 150deg;}
+.number.number6{--rotation: 180deg;}
+.number.number7{--rotation: 210deg;}
+.number.number8{--rotation: 240deg;}
+.number.number9{--rotation: 270deg;}
+.number.number10{--rotation: 300deg;}
+.number.number11{--rotation: 330deg;}
+
+.hand{
+    --rotation: 0;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 45%;
+    background: rgb(255, 251, 0);
+    border: 1px solid white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    transform-origin: bottom;
+    z-index: 10;
+}
+.hand.hour{
+    width: 12px;
+    height: 34%;
+    background-color: rgb(0, 255, 76);
+    transform: rotate(var(--rotation));
+}
+.hand.minute{
+    width: 8px;
+    height: 39%;
+    transform: rotate(var(--rotation));
+}
+.hand.second{
+    width: 4px;
+    height: 41%;
+    background-color: red;
+    transform: rotate(var(--rotation));
+}
+.clock::after{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.993);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+}) no-repeat 100% 0%;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 0 50px 15px #b95216c0,
+                inset 0 0 10px 5px #d38e6779;
+}
+.number{
+    --rotation: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+    transform: rotate(var(--rotation));
+}
+.number .num{
+    --rotation: 0;
+    display: block;
+    padding: 5px;
+    transform: rotate(var(--rotation));
+}
+.num.num1{--rotation: -30deg;}
+.num.num2{--rotation: -60deg;}
+.num.num3{--rotation: -90deg; padding: 0;}
+.num.num4{--rotation: -120deg;}
+.num.num5{--rotation: -150deg;}
+.num.num6{--rotation: 180deg;}
+.num.num7{--rotation: 150deg;}
+.num.num8{--rotation: 120deg;}
+.num.num9{--rotation: 90deg; padding: 0;}
+.num.num10{--rotation: 60deg;}
+.num.num11{--rotation: 30deg;}
+
+.number.number1{--rotation: 30deg;}
+.number.number2{--rotation: 60deg;}
+.number.number3{--rotation: 90deg;}
+.number.number4{--rotation: 120deg;}
+.number.number5{--rotation: 150deg;}
+.number.number6{--rotation: 180deg;}
+.number.number7{--rotation: 210deg;}
+.number.number8{--rotation: 240deg;}
+.number.number9{--rotation: 270deg;}
+.number.number10{--rotation: 300deg;}
+.number.number11{--rotation: 330deg;}
+
+.hand{
+    --rotation: 0;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 45%;
+    background: rgb(255, 251, 0);
+    border: 1px solid white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    transform-origin: bottom;
+    z-index: 10;
+}
+.hand.hour{
+    width: 12px;
+    height: 34%;
+    background-color: rgb(0, 255, 76);
+    transform: rotate(var(--rotation));
+}
+.hand.minute{
+    width: 8px;
+    height: 39%;
+    transform: rotate(var(--rotation));
+}
+.hand.second{
+    width: 4px;
+    height: 41%;
+    background-color: red;
+    transform: rotate(var(--rotation));
+}
+.clock::after{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.993);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+}
