@@ -5,7 +5,7 @@
 }
 body{
     min-height: 100vh;
-    background: linear-gradient(-45deg, rgba(255, 0, 0, 0.253), rgba(0, 0, 255, 0.452)), url(https://media.istockphoto.com/id/477206808/photo/timkat-celebration-in-ethiopia.jpg?s=612x612&w=0&k=20&c=AnlTi771hNWlsaf4A30thFGf_2UtSLe0WCVfADDANYc=) no-repeat center;
+    background: linear-gradient(-45deg, rgba(255, 0, 0, 0.253), rgba(0, 0, 255, 0.452)), url(https://github-production-user-asset-6210df.s3.amazonaws.com/112067722/240852508-f65e1c45-a816-44dc-b939-4c124f9b2415.png) no-repeat center;
     background-size: cover;
     font-family: sans-serif;
     display: flex;
